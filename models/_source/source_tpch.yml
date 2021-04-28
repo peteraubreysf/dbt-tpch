@@ -3,7 +3,11 @@ version: 2
 sources:
   - name: tpch
     database: SNOWFLAKE_SAMPLE_DATA
+<<<<<<< HEAD
+    schema: TPCH_SF1
+=======
     schema: TPCH_SF1000
+>>>>>>> 07d20f14403579fa5b95adc1ee79cb5ef946922c
     loader: Snowflake
     
     quoting:
